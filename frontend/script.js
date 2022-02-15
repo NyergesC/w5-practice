@@ -67,9 +67,9 @@ console.log(e)
 e = 2
 console.log(e)
 e = e*2
-console.log(e)
+console.log(e)*/
 
-function multiplyByTwo(num) {
+/*function multiplyByTwo(num) {
     console.log(num)
     return num*2
 }
@@ -93,17 +93,22 @@ g.myMethod()*/
 }
 window.addEventListener("load",loadEvent) */
 
-let h = {
+/*let h = {
     anotherMethod: function (text) {
         return `You sent this following argument to this method: ${text}`
     }
 }
 let i = h.anotherMethod("argument")
 console.log(i);
-console.log(h.anotherMethod("another argument"));
+console.log(h.anotherMethod("another argument"));*/
 
 
-
+function test(num1,num2) {
+    return num1+num2
+}
+let z = test(3,2)
+console.log(z)
+console.log(test(3,4))
 
 
 
