@@ -1,0 +1,25 @@
+#root .card {
+    flex-grow: 1;
+    /*flex-basis: calc(33% -10px);*/
+    flex-basis: 25%;
+    height: 100px;  
+    padding: 15px;
+  
+
+    border: black 2px solid;
+    background-color: seagreen;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+#root {
+    display: flex;
+    display: wrap;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
